@@ -417,3 +417,116 @@ footer .content .socials a i {
   font-size: 23px;
   color: white;
 }
+
+@media screen and (max-width: 970px) {
+  .navs .mobile-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo.logo-web {
+    display: none;
+  }
+  .navs {
+    padding: 25px !important;
+  }
+  .logo {
+    width: 15vw;
+    z-index: 100000;
+  }
+  .navs .web-nav {
+    display: none;
+  }
+
+  .first_section .content {
+    width: 100%;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .first_section .content h3 {
+    font-size: 140%;
+    line-height: 35px;
+    text-align: left;
+  }
+  .first_section .content h1 {
+    font-size: 250%;
+
+    line-height: 50px;
+    text-align: left;
+  }
+  .getskills,
+  .market {
+    flex-direction: column;
+  }
+  .getskills img,
+  .market img {
+    height: unset;
+  }
+  .getskills .content p,
+  .market .content p {
+    padding: 0;
+  }
+  .cards {
+    flex-direction: column;
+  }
+
+  .cards img {
+    height: 80vw !important;
+  }
+  body > div.fourth_section > div.partner > img {
+    transform: scale(1.2);
+  }
+  .quote img {
+    width: 90vw !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .fifth_section .companies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .fifth_section .companies img {
+    width: 80vw;
+  }
+  .sixth_section .strategic-partners .partners {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .sixth_section .strategic-partners .partners img {
+    width: 90vw;
+  }
+  footer .content {
+    flex-direction: column;
+    width: 100%;
+    white-space: nowrap;
+    gap: 20px;
+  }
+  footer .content p {
+    font-size: 3vw;
+  }
+  .second_section .stats {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .first_section .content h1,
+  .first_section .content h3 {
+    width: unset;
+  }
+  .first_section .content {
+    padding: 0 30px;
+    align-items: unset;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .second_section {
+    gap: 10vh;
+  }
+}
